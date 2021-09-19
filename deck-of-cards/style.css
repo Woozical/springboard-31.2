@@ -1,0 +1,22 @@
+body {
+    background-color: green;
+}
+
+#game-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#card-pile{
+    position: absolute;
+    left: 42vw;
+    top: 35vh;
+}
+
+.card{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
